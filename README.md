@@ -12,4 +12,4 @@
    Answer : You can share state between components by lifting the state up to their common parent and passing it down as props. Alternatively, you can use Context API or state management libraries like Redux.
 
 5. How is event handling done in React?
-   Answer : Event handling in React is done using camelCase event names and by passing a function as the event handler. It works similar to HTML events but uses JSX syntax.
+   Answer : Event  handling in React is done using camelCase event names and by passing a function as the event handler. It works similar to HTML events but uses JSX syntax.
