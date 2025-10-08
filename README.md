@@ -1,16 +1,15 @@
-# React + Vite
+1. What is JSX, and why is it used?
+   Answer : JSX is a syntax extension in React that lets you write HTML-like code inside JavaScript. It’s used because it makes UI code more readable, declarative, and easier to maintain.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. What is the difference between State and Props?
+   Answer : State is used to store data within a component and can change over time.
+   Props are read-only values passed from parent to child components to display or use data.
 
-Currently, two official plugins are available:
+3. What is the useState hook, and how does it work?
+   Answer : The useState hook lets you add and manage state in a functional component. It works by returning a state variable and a function to update that state. When the state changes, the component re-renders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. How can you share state between components in React?
+   Answer : You can share state between components by lifting the state up to their common parent and passing it down as props. Alternatively, you can use Context API or state management libraries like Redux.
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. How is event handling done in React?
+   Answer : Event handling in React is done using camelCase event names and by passing a function as the event handler. It works similar to HTML events but uses JSX syntax.
