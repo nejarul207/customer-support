@@ -6,5 +6,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/customer-support/'
+  base: process.env.VITE_BASE_URL || '/customer-support/',
 });
